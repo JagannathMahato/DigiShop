@@ -46,17 +46,17 @@ const Language = styled.span`
 const SearchContainer =styled.div`
     border:0.5px solid lightgrey;
     display: flex;
-    align-item: center;
+    align-items: center;
     margin-left:25px;
-    padding:5px;
-`
+`;
 const Input = styled.input`
     border:none;
-`
+    padding:10px;
+`;
 
 const Logo=styled.h1`
     font-weight:bold;
-`
+`;
 
 
 const Navbar = () => {
