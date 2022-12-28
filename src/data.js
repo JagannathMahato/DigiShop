@@ -44,3 +44,38 @@ export const categories = [
         title: "LIGHT JACKETS"
     },
 ]
+
+export const popularProducts = [
+    {
+        id:1,
+        img:"https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/19231474/2022/7/23/cbc61e73-8d7e-415a-9ade-bc4b9daab57d1658563077615Kurtas1.jpg"
+    },
+    {
+        id:2,
+        img:"https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/16629088/2022/1/17/491c71aa-7bee-449d-87fb-0a62fe20bcf81642417227528-HRX-by-Hrithik-Roshan-Unisex-Backpacks-9281642417226867-2.jpg"
+    },
+    {
+        id:3,
+        img:"https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/17931874/2022/9/17/acb226b9-7da6-4b99-9d9f-5dc75411cfe01663406455055-DressBerry-Women-Sweaters-6461663406454632-1.jpg"
+    },
+    {
+        id:4,
+        img:"https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/18376432/2022/5/23/8bef591a-d8a1-45f3-9d67-6a6293b5ee4e1653286093285DarziWomenLimeGreenShrug1.jpg"
+    },
+    {
+        id:5,
+        img:"https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/17240116/2022/2/28/f3f1e0cf-f9ff-46ba-9137-07cd3a99f5db1646031536000JumpsuitSASSAFRASWomenDressesSASSAFRASWomenTrousersSASSAFRAS1.jpg"
+    },
+    {
+        id:6,
+        img:"https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/16569574/2021/12/21/526464d3-e87d-4abf-9784-eff1558932d21640061314829Skirts5.jpg"
+    },
+    {
+        id:7,
+        img:"https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/18383902/2022/11/22/d4a2ec1f-0770-4546-9a72-9560a27c3e001669098681208-Chemistry-Women-Peach-Cable-Knitted-Solid-Skirt-955166909868-1.jpg"
+    },
+    {
+        id:8,
+        img:"https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/18195234/2022/10/27/2cf0aab3-74b2-4457-9ee8-2bd5cc6a1b8f1666853758292-HRX-by-Hrithik-Roshan-Women-Jackets-9731666853757547-1.jpg"
+    },
+]
