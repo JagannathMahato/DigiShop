@@ -3,7 +3,17 @@ import {MdOutlineKeyboardArrowLeft,
      MdOutlineKeyboardArrowRight} from 'react-icons/md';
 import { useState } from 'react';
 import { sliderItems } from '../data';
+import { mobile } from '../responsive';
 
+
+const Container = styled.div`
+    width:100%;
+    height:80vh;
+    display:flex;
+    overflow:hidden;
+    position:relative;
+    ${mobile({display:"none"})}
+`;
 
 const Arrow = styled.div`
     width:50px;
@@ -67,13 +77,6 @@ const Image=styled.img`
     height:80%;
 `;
 
-const Container = styled.div`
-    width:100%;
-    height:80vh;
-    display:flex;
-    overflow:hidden;
-    position:relative;
-`;
 function Slider() {
 
     const [slideIndex, setSlideIndex]=useState(0);
